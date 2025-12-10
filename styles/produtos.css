@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #111;
+    width: 100%;
+}
+
+.navegacao{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 25px;
+    height: 60px; 
+    width: 90%; 
+    margin: 0 auto;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+}
+#logo img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.buscar{
+    display: flex;
+    background-color:#ffffff;
+    border:solid 3px #5c5c5c;
+    border-radius:5px;
+}
+.buscar img {
+    width: 35px;
+    height: auto;
+    margin: 3px;
+}
+.txtBusca{
+    border: none;
+    width: 300px;
+    height: 42px;
+    padding-left: 5px;
+    outline: none;
+}
+.btnBusca{
+    border: none;
+    width: 80px;
+    height: 42px;
+    background-color: #5c5c5c;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navLinks{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.navLinks a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+.navLinks a:hover {
+    opacity: 0.7;
+}
+.navLinks img{
+    width: 35px;
+    height: auto;
+    display: block;
+}
+.rodapePrincipal {
+    background-color: #1a1a1a; 
+    color: #b3b3b3; 
+    padding-top: 50px;
+    border-top: 4px solid #ff4500; 
+}
+
+.containerFooter {
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 auto;
+    padding: 0 20px 40px 20px;
+    flex-wrap: wrap; 
+    gap: 40px;
+}
+
+
+.rodapePrincipal article {
+    flex: 1; 
+    min-width: 250px; 
+}
+
+.rodapePrincipal h3 {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+}
+
+.rodapePrincipal p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.botaoFooter {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    border: 1px solid #555;
+    transition: 0.3s;
+}
+
+.botaoFooter:hover {
+    background-color: #ff4500;
+    border-color: #ff4500;
+    color: white;
+}
+
+.socialMidia {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.socialMidia img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    transition: transform 0.2s;
+}
+
+.socialMidia a:hover img {
+    transform: scale(1.1); 
+}
+
+.socialMidia span {
+    font-size: 0.9rem;
+}
+
+.linkSobre {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.linkSobre:hover {
+    color: #ff4500;
+    border-bottom: 1px solid #ff4500;
+}
+
+
+.copyright {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+/* Produtos escolhido*/
+
+
+.containerProduto {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+
+.imagemProduto {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.imagemProduto figure {
+    width: 100%;
+    max-width: 450px;
+}
+
+.imagemProduto img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1); 
+}
+
+.detalhesProduto {
+    flex: 1.2;
+}
+
+.detalhesProduto h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #0F1111;
+    margin-bottom: 10px;
+}
+
+.dividir {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+}
+
+.detalhesProduto h2 {
+    font-size: 1.7rem;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.detalhesProduto h3 {
+    font-size: 1rem;
+    color: #007600;
+    margin-bottom: 20px;
+}
+
+.detalhesProduto p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.containerCompra {
+    margin-top: 20px;
+}
+
+.botaoComprar {
+    display: inline-block;
+    background-color: #ff4500;
+    color: white;
+    text-decoration: none;
+    padding: 12px 60px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.botaoComprar:hover {
+    background-color: #cc3700;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.8);
+}
+
+/* Produtos Relecionados*/
+.produtosRelacionados {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+    gap: 60px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.nomePagina h2{
+    width: 100%; 
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    color: black;
+    border-left: 5px solid #ff4500; 
+    padding-left: 15px;
+}
+
+
+.infoProduto {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.3s ease, transform 0.2s;
+    border: 1px solid #e6e6e6;
+    height: 100%;
+}
+
+.infoProduto:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12); 
+    transform: translateY(-4px); 
+    border-color: transparent;
+}
+
+
+.infoProduto figure {
+    width: 100%;
+    height: 220px;
+    margin: 0 0 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.infoProduto img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+.infoProduto h3 {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    height: 40px; 
+    overflow: hidden;
+}
+
+.infoProduto h3 a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400; 
+}
+
+.infoProduto h3 a:hover {
+    color: #e67a00;
+    text-decoration: underline;
+}
+
+
+.infoProduto h4 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 400;
+    margin: 10px 0 4px 0;
+}
+
+
+.infoProduto h5 {
+    font-size: 0.85rem;
+    color: #00a650; 
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
