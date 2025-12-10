@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/carrinho.css">
-    <title>Carrinho</title>
+    <link rel="stylesheet" href="./styles/produtos.css">
+    <title>Vagabond - Capitulo 1</title>
 </head>
 <body>
     <header class="navbar">
@@ -27,63 +27,50 @@
         </nav>
     </header>
     <main>
-        <section class="carrinho">
-            <h1>Seu Carrinho</h2>
-            <section class="produtosCarrinho">
-                <article class="produto">
-                    <figure>
-                        <img src="./img/berserkCap3.jpg" alt="berserk-capitulo3">
-                    </figure>
-                    <div class="nomeProduto">
-                    <h2>Bersek - Capitulo 3</h2>
-                    <figure>
-                        <img src="./img/lixeira.png" alt="icone-lixeira">
-                    </figure>
-                    </div>
-                    <h3>R$ 59,99</h3>
-                    <h4>Quantidade: 1</h4>
-                    <div class="dividir"></div>
-                    <h5>Frete: Grátis</h5>
-                </article>
-                <article class="produto">
-                    <figure>
-                        <img src="./img/hunterCap1.jpg" alt="hunterxhunter-capitulo1">
-                    </figure>
-                    <div class="nomeProduto">
-                    <h2>Hunter x Hunter - Capitulo 1</h2>
-                    <figure>
-                        <img src="./img/lixeira.png" alt="icone-lixeira">
-                    </figure>
-                    </div>
-                    <h3>R$ 50,00</h3>
-                    <h4>Quantidade: 2</h4>
-                    <div class="dividir"></div>
-                    <h5>Frete: Grátis</h5>
-                </article>
-                <article class="produto">
-                    <figure>
-                        <img src="./img/nanaCap2.jpg" alt="nana-capitulo2">
-                    </figure>
-                    <div class="nomeProduto">
-                    <h2>Nana - Capitulo 2</h2>
-                    <figure>
-                        <img src="./img/lixeira.png" alt="icone-lixeira">
-                    </figure>
-                    </div>
-                    <h3>R$ 65,00</h3>
-                    <h4>Quantidade: 1</h4>
-                    <div class="dividir"></div>
-                    <h5>Frete: Grátis</h5>
-                </article>
+        <section class="containerProduto">
+            <aside class="imagemProduto">
+                <figure><img src="./img/vagabondCap1.jpg" alt="vagabond-capitulo1"></figure>
+            </aside>
+            <section class="detalhesProduto">
+                <h1>Vagabond - Capítulo 1</h1>
+                <div class="dividir"></div>
+                <h2>R$ 50,00</h2>
+                <h3>Frete grátis</h3>
+                <p>
+                    Narra a jornada épica e fictícia do lendário espadachim japonês Miyamoto Musashi, começando com o selvagem Shinmen Takezo após a desastrosa Batalha de Sekigahara, e acompanhando sua transformação através de combates brutais, autodescoberta e desafios espirituais, enquanto ele busca se tornar invencível e compreender o verdadeiro "Caminho da Espada", contrastando sua evolução com a de seu rival Sasaki Kojiro. 
+                </p>
+                <div class="containerCompra">
+                    <a href="carrinho.html" class="botaoComprar">Comprar agora</a>
+                </div>
             </section>
-            <section class="resumoCompra">
-                <h2>Resumo da Compra</h2>
-                <div class="dividirResumo"></div>
-                <h3>Total dos Produtos: R$ 174,99</h3>
-                <h4>Frete: Grátis</h4>
-                <div class="dividirResumo"></div>
-                <h2>Total a Pagar: R$ 174,99</h2>
-                <a href="adicionarEndereco.html" class="botaoFinalizar">Finalizar Compra</a>
+        </section>
+        <div class="nomePagina">
+            <h2>Produtos Relacionados</h2>
+        </div>
+        <section class="produtosRelacionados">
+            <section class="infoProduto">
+                <figure><img src="./img/vagabondCap2.jpg" alt="capitulo1-Vagabond"></figure>
+                <h3><a href="#">Vagabond - Capitulo 2</a></h3>
+                <h4>R$ 55,00</h4>
+                <h5>Frete grátis</h5>
+            </section>
+            <section class="infoProduto">
+                <figure><img src="./img/vagabondCap3.jpg" alt="capitulo2-Vagabond"></figure>
+                <h3><a href="berserkCap2.html">Vagabond - Capitulo 3</a></h3>
+                <h4>R$ 55,00</h4>
+                <h5>Frete grátis</h5>
+            </section>
+            <section class="infoProduto">
+                <figure><img src="./img/vagabondCap4.jpg" alt="capitulo4-Vagabond"></figure>
+                <h3><a href="berserkCap4.html">Vagabond - Capitulo 4</a></h3>
+                <h4>R$ 59,99</h4>
+                <h5>Frete grátis</h5>
+            </section>
+            <section class="infoProduto">
+                <figure><img src="./img/berserkCap1.jpg" alt="capitulo1-Berserk"></figure>
+                <h3><a href="berserkCap1.html">Berserk - Capitulo 1</a></h3>
+                <h4>R$ 50,00</h4>
+                <h5>Frete grátis</h5>
             </section>
         </section>
     </main>

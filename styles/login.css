@@ -84,7 +84,7 @@
 }
 
 .campoLogin input:focus {
-    border-color: #ff4500;
+    border-color: #E6261C;
     box-shadow: 0 0 5px rgba(255, 69, 0, 0.2);
 }
 
@@ -98,7 +98,7 @@
     display: block;
     width: 100%;
     padding: 15px;
-    background-color: #ff4500;
+    background-color: #E6261C;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -110,7 +110,7 @@
 }
 
 .botaoFormulario a:hover {
-    background-color: #cc3700; 
+    background-color: #CC2118; 
 }
 
 .levarCadastro {
@@ -121,7 +121,7 @@
 }
 
 .levarCadastro a {
-    color: #ff4500;
+    color: #E6261C;
     text-decoration: none;
     font-weight: bold;
 }
