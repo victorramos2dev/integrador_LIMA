@@ -180,3 +180,136 @@
     font-size: 0.8rem;
     width: 100%;
 }
+
+/* Adicionar Produtos */
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+    gap: 60px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+
+.infoProduto {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.3s ease, transform 0.2s;
+    border: 1px solid #e6e6e6;
+    height: 100%;
+}
+
+.infoProduto:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12); 
+    transform: translateY(-4px); 
+    border-color: transparent;
+}
+
+
+.infoProduto figure {
+    width: 100%;
+    height: 220px;
+    margin: 0 0 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.infoProduto img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+.infoProduto h3 {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    height: 40px; 
+    overflow: hidden;
+}
+
+.infoProduto h3 a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400; 
+}
+
+.infoProduto h3 a:hover {
+    color: #e67a00;
+    text-decoration: underline;
+}
+
+
+.infoProduto h4 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 400;
+    margin: 10px 0 4px 0;
+}
+
+
+.infoProduto h5 {
+    font-size: 0.85rem;
+    color: #00a650; 
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.opcoesAdmin {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0; 
+    padding: 15px 20px;
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+    width: 98%;
+}
+
+.opcoesAdmin h1 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    margin-right: auto;
+}
+
+.botaoAdicionarProduto, 
+.botaoRemoverProduto {
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.botaoAdicionarProduto {
+    background-color: #E6261C;
+    color: white;
+    border: 1px solid #E6261C;
+}
+
+.botaoAdicionarProduto:hover {
+    background-color: #CC2118;
+}
+.botaoRemoverProduto {
+    background-color: transparent;
+    color: #E6261C;
+    border: 1px solid #E6261C;
+}
+
+.botaoRemoverProduto:hover {
+    background-color: #ffebeb;
+}
